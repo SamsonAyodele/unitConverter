@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.converter {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 8rem;
+    display: block;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 550px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    color: white;
+    font-family: inter;
+    font-weight: 800;
+    line-height: 38px;
+    
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+/* .header {
+    color: white;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.05rem;
+    text-align: center;
+
+} */
+
+.container-2 {
+    position: relative;
+    width: 550px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 0px;
+    top: 0px;
+
+    background: #FBF7EE;
+}
+
+h2:not(:last-child) {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    
+
+    text-align: center;
+
+    color: #1A1921;
+}
+
+h3 {
+    margin: 3rem;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+
+    text-align: center;
+
+    color: #4E4E4E;
+
+}
+
+input[type="text"] {
+    padding: 1px 2px;
+}
+
+input #num {
+    background: none;
+    width: 40%;
+    height: 51.23px;
+    left: 169px;
+    top: 155px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 25px;
+    
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+} 
+
+/* @media(min-width: 500px) {
+    .converter {
+        width: 450px;
+        margin: 0.2rem auto 1rem;
+    }
+} */
+
