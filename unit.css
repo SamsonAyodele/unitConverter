@@ -5,7 +5,6 @@
 }
 
 body {
-    /* color: #FFFFFF; */
     background-color: black;
     margin: 0;
     font-family: 'inter', sans-serif;
@@ -100,60 +99,8 @@ body {
 #last {
     margin-bottom: 10px;
 }
-/* h2:not(:last-child) {
-    margin-bottom: 1.5rem;
-    margin-top: 1rem;
-}
-
-h2 {
-   
-}
-
-h3 {
-    margin: 3rem;
-}
-
-p {
-   
-    font-style: normal;
-    font-weight: 400;
-  
-   
-    
-
-    text-align: center;
-
-   
-
-}
-
-input[type="text"] {
-    padding: 1px 2px;
-}
-
-input #num {
-    background: none;
-    width: 40%;
-    height: 51.23px;
-    left: 169px;
-    top: 155px;
-    border: none;
-    outline: none;
-    text-decoration: none;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 100px;
-    line-height: 25px;
-    
-
-    text-align: center;
-
-    color: #FFFFFF;
-
-}  */
-
-/* @media(min-width: 500px) {
+/* 
+@media(min-width: 500px) {
     .converter {
         width: 450px;
         margin: 0.2rem auto 1rem;
