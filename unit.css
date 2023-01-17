@@ -13,10 +13,6 @@ body {
 .converter {
     width: 550px;
     margin: 10% auto;
-    /* position: absolute; */
-    /* margin-left: 500px; */
-    /* margin-top: 8rem; */
-    /* display: block; */
 }
 
 .container-1 {
@@ -24,16 +20,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* position: relative; */
-    /* width: 550px; */
     height: 260px;
-    /* left: 0px; */
-    /* top: 0px; */
-    /* text-align: center; */
-    /* color: white; */
-    /* font-family: inter; */
-    /* font-weight: 800; */
-    /* line-height: 38px; */
     
     background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
 }
@@ -58,16 +45,11 @@ body {
 }
 
 .container-2 {
-    /* position: relative; */
-    /* width: 550px; */
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
-    /* left: 0px; */
-    /* top: 0px; */
 
     background: #FBF7EE;
 }
