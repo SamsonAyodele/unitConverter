@@ -80,8 +80,8 @@ function poundToKilo(pound) {
 function convertNumber(value) {
 
   if (isNaN(value)) {
-    console.log("Not a Number!");
-    error.textContent = "Not a Number";
+    // console.log("Not a Number!");
+   return  error.textContent = "Not a Number";
   } else {
     error.textContent = "";
 
