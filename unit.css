@@ -1,91 +1,93 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: black;
-    margin: 0;
-    font-family: 'inter', sans-serif;
+  background-color: black;
+  margin: 0;
+  font-family: "inter", sans-serif;
 }
 
 .converter {
-    width: 550px;
-    margin: 10% auto;
+  text-align: center;
+  width: 550px;
+  margin: 50px auto;
 }
 
 .container-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 260px;
-    
-    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 250px;
+
+  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
 }
 
 .container-1 h1 {
-    color: white;
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 30px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
 }
 
 #num {
-    border: none;
-    background-color: transparent;
-    outline: none;
-    color: white;
-    text-align: center;
-    font-size: 100px;
-    font-weight: bold;
-    line-height: 24px;
-    width: 40%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 24px;
+  width: 40%;
 }
 
 .container-2 {
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    background: #FBF7EE;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fbf7ee;
 }
 
 .convert {
-    text-align: center;
-    margin-bottom: 1.2rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
 }
 
 .convert h2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 1.2rem;
-    margin-bottom: 1.2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.2rem;
+  margin-bottom: 1.2rem;
 
-    color: #1A1921;
+  color: #1a1921;
 }
 
 .convert p {
-    color: #4E4E4E;
-    font-weight: 400;
-    font-family: 'Inter';
-    font-size: 16px;
-    font-style: normal;
+  color: #4e4e4e;
+  font-weight: 400;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
 }
 
 #last {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-/* 
-@media(min-width: 500px) {
-    .converter {
-        width: 450px;
-        margin: 0.2rem auto 1rem;
-    }
-} */
+
+@media (max-width: 600px){
+  .converter {
+    width: 400px;
+    margin: 10px 0px;
+    overflow: hidden;
+  }
+}
 

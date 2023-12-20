@@ -1,65 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Unit Converter</title>
-    <link rel="stylesheet" href="./unit.css">
-</head>
-<body>
-<div class="converter">
-        <div class="container-1">
-                    <h1>Metric/imperial unit converter</h1>
-                    <input type="text" id="num" value="0">
-                    <p id="error"></p>
+    <link rel="stylesheet" href="./unit.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="converter">
+      <div class="container-1">
+        <h1>Metric/Imperial Unit Converter</h1>
+        <input type="text" id="num" value="0" />
+        <p id="error"></p>
+      </div>
+
+      <div class="container-2">
+        <div class="convert">
+          <h2>Length (Meter / Feet)</h2>
+          <p>
+            <span id="feet">0.000</span>
+            meters =
+            <span id="meter">0</span>
+            feet /
+            <span id="meter2">0.000</span>
+            feet =
+            <span id="feet2">0</span>
+            meters
+          </p>
         </div>
 
-    <div class="container-2">
-            <div class="convert">
-                <h2>Lenght (Meter / Feet)</h2>
-                   <p>
-                        <span id="meter">0</span>
-                         meters = 
-                        <span id="feet">0.000</span>
-                         feet / 
-                        <span id="feet2">0</span>
-                         feet = 
-                        <span id="meter2">0.000</span>
-                         meters 
-                    </p>
-            </div>
+        <div class="convert">
+          <h2>Volume (Liters / Gallons)</h2>
+          <p>
+            <span id="liter">0</span>
+            liters =
+            <span id="gallons">0.000</span>
+            gallons /
+            <span id="gallons2">0</span>
+            gallons =
+            <span id="liter2">0.000</span>
+            liters
+          </p>
+        </div>
 
-            <div class="convert">
-               <h2>Volume (Liters / Gallons)</h2>
-               <p>
-                   <span id="liter">0</span>
-                     liters = 
-                    <span id="gallons">0.000</span>
-                     gallons / 
-                    <span id="gallons2">0</span>
-                     gallons =
-                    <span id="liter2">0.000</span>
-                     liters 
-               </p>
-            </div>
-
-            <div class="convert" id="last">
-                <h2>Mass (Kilograms / Pounds)</h2>
-                <p>
-                    <span id="kilo">0</span>
-                     kilos = 
-                    <span id="pound">0.000</span>
-                     pounds / 
-                    <span id="pound2">0</span>
-                     pounds = 
-                    <span id="kilo2">0.000</span>
-                     kilos 
-                </p>
-            </div>
+        <div class="convert" id="last">
+          <h2>Mass (Kilograms / Pounds)</h2>
+          <p>
+            <span id="kilo">0</span>
+            kilos =
+            <span id="pound">0.000</span>
+            pounds /
+            <span id="pound2">0</span>
+            pounds =
+            <span id="kilo2">0.000</span>
+            kilos
+          </p>
+        </div>
+      </div>
     </div>
-</div>
 
- <script src="unit.js"></script>   
-</body>
+    <script src="unit.js"></script>
+  </body>
 </html>
